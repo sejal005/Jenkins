@@ -1,0 +1,126 @@
+.header{
+    display:flex;
+    position:relative;
+    top:0;
+    right:0;
+    left:0;
+    background-color: rgb(4, 4, 89);
+    color:white;
+    justify-content: center;
+    font-family: arial;
+    height: 25px;
+
+
+}
+.sub-header{
+    position:absolute;
+    display: flex;
+    right:0;
+    left:0;
+    height:35px;
+    justify-content: space-between;
+    padding-left: 90px;
+    padding-right:90px;
+    align-items: center;
+
+
+}
+.name{
+    font-size: 26px;
+    color:rgb(2, 2, 71);
+    margin-top:10px;
+    font-weight:bold;
+}
+.shop-button{
+   background-color: rgb(255, 121, 3);
+   color:white;
+   font-weight:bold;
+   border-radius: 4px;
+   padding-top:4px;
+   padding-bottom:4px;
+   height:30px;
+   width:80px;
+   border:none;
+   box-shadow:4px 4px 8px rgba(0,0,0,0.5); 
+   margin-top:10px;
+   cursor:pointer;
+}
+.shop-button:hover{
+    background-color:rgb(240, 165, 98); ;
+
+}
+.footer{
+    position:fixed;
+    bottom: 0;
+    right:0;
+    left:0;
+    height:50px;
+    background-color:rgb(2, 2, 71);
+    color:white;
+    justify-content: center; 
+    display: flex;
+    padding-top:25px;
+    font-size:20px;
+    font-family: arial;
+     
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    top:55px;
+    right:0;
+    left:0;
+    bottom:50px;
+    background-color:rgba(207, 207, 225,0.5); 
+}
+
+.img{
+    width:700px;
+    height:600px;
+    mix-blend-mode: multiply; 
+}
+.content{
+    padding-left:150px;
+    padding-top: 100px;
+}
+
+
+.head{
+    display: block;
+    font-size:50px;
+    color:rgb(2, 2, 71);
+    font-family:arial;
+    font-weight: bold;
+    margin-bottom: 0;
+    
+}
+.sub-head{
+    display:block;
+    font-size: 22px;
+    margin-top:4px;
+    color:rgb(3, 3, 79);
+    font-family:arial;
+}
+.shop-body{
+    width:400px;
+    height:45px;
+    margin-left:30px;
+    border:none;
+    border-radius:8px;
+    background-color:rgb(254, 75, 4);
+    color:white;
+    font-weight:bold;
+    font-size:15px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+
+}
+.shop-body:hover{
+    background-color:rgb(241, 124, 78); ;
+}
+.free{
+    margin-left:180px;
+    font-family:arial;
+    color:rgb(2, 2, 59);
+}
